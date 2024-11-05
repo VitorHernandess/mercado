@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    background-color: black;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+}
+.search-bar input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+.loc{
+    color: white;
+    margin-left: 1200px;
+    display: flex;
+    justify-content: right;
+}
